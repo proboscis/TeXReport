@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.12.11)  18 DEC 2015 05:07
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.12.11)  18 DEC 2015 05:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,21 +290,8 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 20.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 23.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 23.
-
-
-LaTeX Warning: Reference `dataset_merged' on page 1 undefined on input line 23.
-
-
 File: ./Figures/dataset_merged.png Graphic file (type bmp)
-<./Figures/dataset_merged.png>
+ <./Figures/dataset_merged.png>
 Overfull \hbox (4.1526pt too wide) in paragraph at lines 24--24
  [][] 
  []
@@ -324,10 +311,14 @@ Overfull \hbox (3.4269pt too wide) in paragraph at lines 31--31
  []
 
 
-Underfull \vbox (badness 5231) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./report.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -336,18 +327,14 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
-) [2] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [2] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2555 strings out of 493742
- 31891 string characters out of 6151251
- 95212 words of memory out of 5000000
- 6014 multiletter control sequences out of 15000+600000
- 18831 words of font info for 81 fonts, out of 8000000 for 9000
+ 2550 strings out of 493742
+ 31826 string characters out of 6151251
+ 96212 words of memory out of 5000000
+ 6010 multiletter control sequences out of 15000+600000
+ 18523 words of font info for 80 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  29i,8n,26p,676b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (2 pages, 10960 bytes).
+Output written on report.dvi (2 pages, 11104 bytes).
