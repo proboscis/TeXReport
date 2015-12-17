@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+
+\bibitem{scene_graph}
+Justin Johnson, Ranjay Krishna, Michael Stark, Li-Jia Li, David Shamma, Michael
+  Bernstein, and Li~Fei-Fei.
+\newblock Image retrieval using scene graphs.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pp. 3668--3678, 2015.
+
+\end{thebibliography}

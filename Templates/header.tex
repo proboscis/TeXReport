@@ -1,10 +1,12 @@
-\documentclass[12pt,a4paper]{jsarticle}
+\documentclass[10pt,a4paper,twocolumn]{jsarticle}
+\bibliographystyle{jplain}
 \setlength{\columnsep}{3zw}
+
 %
 \usepackage{amsmath,amssymb}
 \usepackage{bm}
 \usepackage[dvipdfmx]{graphicx}
-\usepackage[dvipdfmx]{color} 
+\usepackage[dvipdfmx]{color}
 \usepackage{ascmac}
 \usepackage{here}
 \usepackage{enumerate}
@@ -27,8 +29,8 @@
 
 \newcommand{\inputfig}[3]{
 % Uncomment following line and delete the next to force figure to be in place of the command
-% \begin{figure}[H]
-\begin{figure}
+\begin{figure}[H]
+%\begin{figure}
     \centering
     \includegraphics[scale=#3]{./Figures/#1}
     \caption{#2}
@@ -37,8 +39,8 @@
 }
 \newcommand{\inputgraph}[3]{
 % Uncomment this line and delete the next to force figure to be in place of the command
-% \begin{figure}[H]
-\begin{figure}
+\begin{figure}[H]
+%\begin{figure}
     \centering
     \resizebox{#3\hsize}{!}{\input{graphs/#1.tex}}
     \caption{#2}
@@ -47,8 +49,8 @@
 }
 \newcommand{\inputtable}[2]{
 % Uncomment this line and delete the next to force table to be in place of the command
-% \begin{table}[H]
-\begin{table}
+\begin{table}[H]
+%\begin{table}
 	\caption{#2}
 	\label{table:#1}
 	\centering

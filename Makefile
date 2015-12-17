@@ -16,7 +16,9 @@ $(TARGET).pdf: .$(TARGET).dvi
 	dvipdfmx -o $(TARGET).pdf $<
 
 .$(TARGET).dvi: $(SUBTARGETS) $(HIDDENTARGETS)
-	platex $(TARGET).tex;\
+	platex $(TARGET).tex
+	pbibtex $(TARGET)
+	platex $(TARGET).tex
 	if [ "$$?" != "0" ]; then rm -rf $(TARGET).dvi; make hide; exit 1; fi;
 	platex $(TARGET).tex
 	@make hide
