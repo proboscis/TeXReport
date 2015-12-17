@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{lstm}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, Vol.~9, No.~8, pp. 1735--1780, 1997.
+
 \bibitem{scene_graph}
 Justin Johnson, Ranjay Krishna, Michael Stark, Li-Jia Li, David Shamma, Michael
   Bernstein, and Li~Fei-Fei.
