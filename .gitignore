@@ -1,3 +1,14 @@
 /.DS_Store
 
 .DS_Store
+.bibtex
+.fig
+.graph
+.punc
+.aux
+.bbl
+.blg
+.dvi
+.log
+.table
+.report*

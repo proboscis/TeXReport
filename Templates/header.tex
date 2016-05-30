@@ -1,5 +1,10 @@
-\documentclass[12pt,a4paper]{jsarticle}
+\documentclass[twocolumn,10pt,a4paper]{jsarticle}
 \setlength{\columnsep}{3zw}
+
+\makeatletter
+\@dblfptop 0pt
+\makeatother
+
 %
 \usepackage{amsmath,amssymb}
 \usepackage{bm}
@@ -13,16 +18,20 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{lscape}
+\usepackage{multicol}
 \renewcommand*{\proofname}{Solution}
 %
 \setlength{\textwidth}{1.1\fullwidth}
+\usepackage{geometry}
+\geometry{left=13mm,right=13mm,top=15mm,bottom=15mm}
+
 % \setlength{\textheight}{38\baselineskip}
-\addtolength{\textheight}{\topskip}
-\setlength{\hoffset}{-0.15in}
-\setlength{\voffset}{-0.2in}
-\setlength{\topmargin}{0pt}
-\setlength{\headheight}{0pt}
-\setlength{\headsep}{0pt}
+%\addtolength{\textheight}{\topskip}
+%\setlength{\hoffset}{-0.4in}
+%\setlength{\voffset}{-0.4in}
+%\setlength{\topmargin}{0pt}
+%\setlength{\headheight}{0pt}
+%\setlength{\headsep}{0pt}
 %
 
 \newcommand{\inputfig}[3]{
