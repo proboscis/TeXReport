@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/Masui/google_drive/todai/master/resume/.texpadtmp/report.aux
+The style file: plain.bst
+Database file #1: .././BibTeX/references.bib
+Warning--empty booktitle in visual_genome
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            522 strings with 4619 characters,
+and the built_in function-call counts, 1577 in all, are:
+= -- 163
+> -- 52
+< -- 2
++ -- 20
+- -- 16
+* -- 89
+:= -- 238
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 72
+empty$ -- 141
+format.name$ -- 16
+if$ -- 356
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 123
+swap$ -- 26
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 16
+width$ -- 5
+write$ -- 45
+(There was 1 warning)

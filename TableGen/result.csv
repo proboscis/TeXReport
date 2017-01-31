@@ -1,0 +1,13 @@
+100 Images	 Whole Images	   True Label
+Bus on man	Window on Building 	Sign on bus
+Sign on building	Window on bus	Sign on front of bus
+Bus on bus	Window on bus	Sign on front of bus
+Sign on man	Window on bus	Bus stop on a sidewalk
+Bus on building	Window on bus	Vehicle on a street
+Bus on bus	Window on bus	End of a vehicle
+Bus on man	Window on bus	Lamp post on a street
+Sign on man	Window on bus	Bus going down street
+Bus on building	Window on bus	Sidewalk of a city street
+Bus on bus	Window on bus	Building at end of road
+Bus on building	Window on bus	Vehicle behind bus
+Bus on sign	Window on bus	Eye of statue

@@ -8,10 +8,11 @@ HIDDENTARGETS = .graph .fig .table .punc .bibtex
 HIDEEXTENSIONS = aux dvi log idx bbl blg
 REPLACEPUNC = 1
 
-all:
-	make $(TARGET).pdf
-	open -a Preview $(TARGET).pdf
+all: $(TARGET).pdf TEXPAD_ROOTFILE.pdf
+#	open -a Preview $(TARGET).pdf
 
+TEXPAD_ROOTFILE.pdf: $(TARGET).pdf
+	cp $(TARGET).pdf TEXPAD_ROOTFILE.pdf
 #======================================================================
 $(TARGET).pdf: .$(TARGET).dvi
 	dvipdfmx -o $(TARGET).pdf $<
