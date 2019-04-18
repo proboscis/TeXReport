@@ -1,0 +1,2 @@
+TEXPAD_ROOTFILE=report.tex
+make
