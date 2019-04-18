@@ -12,6 +12,7 @@ all:
 	make $(TARGET).pdf
 	open -a Preview $(TARGET).pdf
 
+
 #======================================================================
 $(TARGET).pdf: .$(TARGET).dvi
 	dvipdfmx -o $(TARGET).pdf $<
